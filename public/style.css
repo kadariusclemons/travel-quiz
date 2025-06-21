@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #2e8b57;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+div {
+  max-width: 600px;
+  margin: auto;
+}
